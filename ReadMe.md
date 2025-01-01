@@ -1,6 +1,6 @@
 # LiftUp
 
-A comprehensive fitness application built using the MERN (MongoDB, Express.js, React, Node.js) stack with a React Native mobile app.
+A comprehensive Career Guide application built using the MERN (MongoDB, Express.js, React, Node.js) stack with a React Native mobile app.
 
 ## Project Structure
 
