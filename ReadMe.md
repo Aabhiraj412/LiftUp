@@ -63,7 +63,7 @@ The web application will be available on `http://localhost:3000`
 ### Mobile Application
 ```bash
 cd APP
-bun run start    # Start Metro bundler
+bun run dev    # Start Metro bundler
 ```
 
 For iOS:
@@ -128,5 +128,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [Alpha_Queue]
-Project Link: [https://github.com/aabhiraj412/liftup](https://github.com/aabhiraj412/liftup)
+Your Name - Alpha_Queue
+Project Link: [https://github.com/Aabhiraj412/LiftUp](https://github.com/Aabhiraj412/LiftUp)
