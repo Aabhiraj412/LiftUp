@@ -1,0 +1,98 @@
+# Node modules
+node_modules/
+dist/
+build/
+*.log
+
+# Vite specific
+.vite/
+vite.config.js
+dist-react/
+
+# React build output
+/build
+/.next
+/out
+
+# Electron specific
+/electron-build/
+/*.asar
+*.dmg
+*.exe
+*.app
+*.deb
+*.rpm
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# .env files (optional)
+.env
+.env.local
+.env.*.local
+
+# TypeScript files (if using TypeScript)
+*.tsbuildinfo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Yarn and NPM lock files (if using Yarn, npm can be excluded)
+yarn.lock
+package-lock.json
+
+# Other
+*.tgz
+
+# Node modules (for both Backend and Frontend)
+**/node_modules/
+
+# Build directories (Frontend and Backend)
+Frontend/dist/
+Frontend/build/
+Backend/dist/
+Backend/build/
+
+# Vite specific for Frontend
+Frontend/.vite/
+Frontend/vite.config.js
+
+# Electron specific (if Electron is used in Frontend)
+Frontend/electron-build/
+Frontend/*.asar
+Frontend/*.dmg
+Frontend/*.exe
+Frontend/*.app
+Frontend/*.deb
+Frontend/*.rpm
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# .env files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# TypeScript files (if using TypeScript)
+**/*.tsbuildinfo
+
+# IDE and editor files
+**/.vscode/
+**/.idea/
+**/*.sublime-workspace
+**/*.sublime-project
+
+# Yarn and npm lock files (choose one based on your package manager)
+Frontend/yarn.lock
+Frontend/package-lock.json
+Backend/yarn.lock
+Backend/package-lock.json
+
+# Other
+*.tgz
