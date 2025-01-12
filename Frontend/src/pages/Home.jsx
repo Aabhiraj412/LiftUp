@@ -83,7 +83,7 @@ const Home = () => {
         <div className="flex min-h-screen overflow-hidden">
           
           <div className="w-1/2 flex justify-center p-8">
-            <h3 className="mt-10 text-9xl text-white font-bold sm:text-6xl">
+            <h3 className="mt-10 ml-50 text-9xl text-white font-bold sm:text-6xl">
             {displayText}
             <span className="animate-blink">|</span>
             </h3>
