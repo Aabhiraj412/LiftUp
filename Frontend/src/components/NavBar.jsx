@@ -33,7 +33,7 @@ const NavBar = () => {
         <li><a>Join Community</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-purple-500 font-[Diphylleia]">LiftUP</a>
+    <a className="btn btn-ghost text-3xl text-purple-500 font-[Diphylleia]">LiftUP</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-gray-600">
