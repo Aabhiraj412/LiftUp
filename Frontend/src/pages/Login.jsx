@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const nav = useNavigate();
+
   return (
     <div className="min-h-screen bg-gradient-to-bl from-purple-600 to-fuchsia-600 via-purple-400">
     <form>
@@ -41,7 +44,7 @@ const Login = () => {
                 </label>
               </div>
             </div>
-            <button className="w-full bg-purple-500 hover:bg-purple-400 focus:ring-2 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-purple-600 text-white" type="submit">
+            <button className="w-full bg-purple-500 hover:bg-purple-400 focus:ring-2 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center focus:ring-purple-600 text-white" type="submit" onClick={()=>{nav('/TrackSkills')}}>
               Login
             </button>
           </div>
